@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/svg+xml" href="assets/images/like.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KOIBIRD</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="root">
+      <header class="section-padding">
+        <div class="top-header">
+          <div class="search">
+            <span class="search-icon"><img src="assets/images/search.svg" alt="search"></span>
+            <span class="search-input"><input type="text"></span>
+          </div>
+          <a class="logo">
+            <img src="assets/images/LOGO.svg" alt="logo">
+          </a>
+          <div class="right-top-header">
+            <div class="account">
+              <button class="cta-button">Register</button>
+              <span>|</span>
+              <button class="cta-button">My Account</button>
+            </div>
+            <div class="cart">
+              <button class="cta-button"><img src="assets/images/wishlist.svg" alt="wishlist"></button>
+              <button class="cta-button"><img src="assets/images/bag.svg" alt="bag"></button>
+            </div>
+          </div>
+        </div>
+        <nav class="bottom-header">
+          <ul class="menu">
+            <li class="menu-item">
+              <a class="menu-item-title">shop by category</a>
+              <div class="sub-menu-item">
+                <ul class="left">
+                  <li><a>ANNAKIKI</a></li>
+                  <li><a>ANNE WEST</a></li>
+                  <li><a>BACON CLOTHING</a></li>
+                  <li><a>BLACK CROWS</a></li>
+                  <li><a>BLANCHA</a></li>
+                  <li><a>CANCELLATO</a></li>
+                  <li><a>CORDOVA</a></li>
+                  <li><a>FUSALP</a></li>
+                  <li><a> LOVE MR MITTENS</a></li>
+                  <li><a> IENKI IENKI</a></li>
+                </ul>
+                <ul class="right">
+                  <li><a>LE KILT</a></li>
+                  <li><a>LINGUA FRANCA</a></li>
+                  <li><a>MORPHO AND LUNA</a></li>
+                  <li><a>NASTAHA ZINKO</a></li>
+                  <li><a>PERFECT MOMENT</a></li>
+                  <li><a>SPENCER VLADIMIR</a></li>
+                  <li><a>STAND</a></li>
+                  <li><a>WILD AND WOOLLY</a></li>
+                  <li><a>WOOLY BOOLY</a></li>
+                  <li><a>BLACK CROWS</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu-item">
+              <a class="menu-item-title">shop by brand</a>
+              <div class="sub-menu-item">
+                <ul class="left">
+                  <li><a>ANNAKIKI</a></li>
+                  <li><a>ANNE WEST</a></li>
+                  <li><a>BACON CLOTHING</a></li>
+                  <li><a>BLACK CROWS</a></li>
+                  <li><a>BLANCHA</a></li>
+                  <li><a>CANCELLATO</a></li>
+                  <li><a>CORDOVA</a></li>
+                  <li><a>FUSALP</a></li>
+                  <li><a> LOVE MR MITTENS</a></li>
+                  <li><a> IENKI IENKI</a></li>
+                </ul>
+                <ul class="right">
+                  <li><a>LE KILT</a></li>
+                  <li><a>LINGUA FRANCA</a></li>
+                  <li><a>MORPHO AND LUNA</a></li>
+                  <li><a>NASTAHA ZINKO</a></li>
+                  <li><a>PERFECT MOMENT</a></li>
+                  <li><a>SPENCER VLADIMIR</a></li>
+                  <li><a>STAND</a></li>
+                  <li><a>WILD AND WOOLLY</a></li>
+                  <li><a>WOOLY BOOLY</a></li>
+                  <li><a>BLACK CROWS</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu-item">
+              <a class="menu-item-title">shop by collection</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-item-title">about koibird</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-item-title">pop-up shop</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section class="banner">
+          <img src="assets/images/BANNER.png" alt="banner">
+        </section>
+
+        <section class="starline">
+          <div>what we are shopping now</div>
+        </section>
+
+        <section id="new-in-slider">
+          <div class="section-title">
+            <span class="line-title"></span>
+            <span class="title">new in</span>
+            <span class="line-title"></span>
+          </div>
+          <div class="section-margin pdmain">
+            <div class="arrow-left" onclick="handleclickNew('left')">
+              <img style="width: 100%; height: auto; object-fit: contain;" src="assets/images/arrow-left.svg" alt="arrow left">
+            </div>
+            <div class="listitems">
+              <div class="listitem">
+                <div class="item-like">
+                  <img class="item" src="assets/images/new-1.png" alt="item-pic">
+                  <img class="like" src="assets/images/like.svg" alt="like">
+                </div>
+                <div class="tacenter fw-400 item-title">Black Jacket</div>
+                <div class="tacenter item-brand">Gucci</div>
+                <div class="tacenter fw-400 item-price">&#163;200</div>
+                <div class="tacenter fw-400 shop-now"><span>Shop Now</span></div>
+              </div>
+              <div class="listitem">
+                <div class="item-like">
+                  <img class="item" src="assets/images/new-2.png" alt="item-pic">
+                  <img class="like" src="assets/images/like.svg" alt="like">
+                </div>
+                <div class="tacenter fw-400 item-title">WHITE JACKET</div>
+                <div class="tacenter item-brand">Bacon Clothing</div>
+                <div class="tacenter fw-400 item-price">&#163;200</div>
+                <div class="tacenter fw-400 shop-now"><span>Shop Now</span></div>
+              </div>
+              <div class="listitem">
+                <div class="item-like">
+                  <img class="item" src="assets/images/new-3.png" alt="item-pic">
+                  <img class="like" src="assets/images/like-yellow.svg" alt="like">
+                </div>
+                <div class="tacenter fw-400 item-title">YELLOW JACKET</div>
+                <div class="tacenter item-brand">Annakiki</div>
+                <div class="tacenter fw-400 item-price">&#163;200</div>
+                <div class="tacenter fw-400 shop-now"><span>Shop Now</span></div>
+              </div>
+              <div class="listitem">
+                <div class="item-like">
+                  <img class="item" src="assets/images/new-4.png" alt="item-pic">
+                  <img class="like" src="assets/images/like.svg" alt="like">
+                </div>
+                <div class="tacenter fw-400 item-title">CAMOUFLAGE JACKET</div>
+                <div class="tacenter item-brand">Black Crows</div>
+                <div class="tacenter fw-400 item-price">&#163;200</div>
+                <div class="tacenter fw-400 shop-now"><span>Shop Now</span></div>
+              </div>
+              <div class="listitem">
+                <div class="item-like">
+                  <img class="item" src="assets/images/new-1.png" alt="item-pic">
+                  <img class="like" src="assets/images/like.svg" alt="like">
+                </div>
+                <div class="tacenter fw-400 item-title">Black Jacket</div>
+                <div class="tacenter item-brand">Gucci</div>
+                <div class="tacenter fw-400 item-price">&#163;200</div>
+                <div class="tacenter fw-400 shop-now"><span>Shop Now</span></div>
+              </div>
+              <div class="listitem">
+                <div class="item-like">
+                  <img class="item" src="assets/images/new-2.png" alt="item-pic">
+                  <img class="like" src="assets/images/like.svg" alt="like">
+                </div>
+                <div class="tacenter fw-400 item-title">WHITE JACKET</div>
+                <div class="tacenter item-brand">Bacon Clothing</div>
+                <div class="tacenter fw-400 item-price">&#163;200</div>
+                <div class="tacenter fw-400 shop-now"><span>Shop Now</span></div>
+              </div>
+              <div class="listitem">
+                <div class="item-like">
+                  <img class="item" src="assets/images/new-3.png" alt="item-pic">
+                  <img class="like" src="assets/images/like-yellow.svg" alt="like">
+                </div>
+                <div class="tacenter fw-400 item-title">YELLOW JACKET</div>
+                <div class="tacenter item-brand">Annakiki</div>
+                <div class="tacenter fw-400 item-price">&#163;200</div>
+                <div class="tacenter fw-400 shop-now"><span>Shop Now</span></div>
+              </div>
+              <div class="listitem">
+                <div class="item-like">
+                  <img class="item" src="assets/images/new-4.png" alt="item-pic">
+                  <img class="like" src="assets/images/like.svg" alt="like">
+                </div>
+                <div class="tacenter fw-400 item-title">CAMOUFLAGE JACKET</div>
+                <div class="tacenter item-brand">Black Crows</div>
+                <div class="tacenter fw-400 item-price">&#163;200</div>
+                <div class="tacenter fw-400 shop-now"><span>Shop Now</span></div>
+              </div>
+            </div>
+            <div class="arrow-right" onclick="handleclickNew('right')">
+              <img style="width: 100%; height: auto; object-fit: contain;" src="assets/images/arrow-right.svg" alt="arrow right">
+            </div>
+          </div>
+        </section>
+
+        <section id="cta-area" class="section-padding">
+          <div class="cta-container">
+            <div class="cta-image">
+              <img src="assets/images/category-1.png" alt="Outwear">
+            </div>
+            <div class="text-content">
+              <div class="category">Outwear</div>
+              <div class="shop-now"><span class="shop-now-box"><span class="shop-now-text">Shop now</span><span class="right-carret">></span></span></div>
+            </div>
+          </div>
+          <div class="cta-container">
+            <div class="cta-image">
+              <img src="assets/images/category-2.png" alt="Skis">
+            </div>
+            <div class="text-content">
+              <div class="category">Skis</div>
+              <div class="shop-now"><span class="shop-now-box"><span class="shop-now-text">Shop now</span><span class="right-carret">></span></span></div>
+            </div>
+          </div>
+          <div class="cta-container">
+            <div class="cta-image">
+              <img src="assets/images/category-3.png" alt="Knitwear">
+            </div>
+            <div class="text-content">
+              <div class="category">Knitwear</div>
+              <div class="shop-now"><span class="shop-now-box"><span class="shop-now-text">Shop now</span><span class="right-carret">></span></span></div>
+            </div>
+          </div>
+          <div class="cta-container">
+            <div class="cta-image">
+              <img src="assets/images/category-4.png" alt="Accessories">
+            </div>
+            <div class="text-content">
+              <div class="category">Accessories</div>
+              <div class="shop-now"><span class="shop-now-box"><span class="shop-now-text">Shop now</span><span class="right-carret">></span></span></div>
+            </div>
+          </div>
+          <div class="cta-container">
+            <div class="cta-image">
+              <img src="assets/images/category-5.png" alt="Goggles">
+            </div>
+            <div class="text-content">
+              <div class="category">Goggles</div>
+              <div class="shop-now"><span class="shop-now-box"><span class="shop-now-text">Shop now</span><span class="right-carret">></span></span></div>
+            </div>
+          </div>
+          <div class="cta-container">
+            <div class="cta-image">
+              <img src="assets/images/category-6.png" alt="Jackets">
+            </div>
+            <div class="text-content">
+              <div class="category">Jackets</div>
+              <div class="shop-now"><span class="shop-now-box"><span class="shop-now-text">Shop now</span><span class="right-carret">></span></span></div>
+            </div>
+          </div>
+        </section>
+
+        <section id="best-sellers">
+          <div class="section-title">
+            <span class="line-title"></span>
+            <span class="title">Best Sellers</span>
+            <span class="line-title"></span>
+          </div>
+          <div class="section-margin pdmain">
+            <div class="arrow-left" onclick="handleclickBest('left')">
+              <img style="width: 100%; height: auto; object-fit: contain;" src="assets/images/arrow-left.svg" alt="arrow left">
+            </div>
+            <div class="listitems">
+              <div class="listitem">
+                <div class="item-like">
+                  <img class="item" src="assets/images/best-1.png" alt="item-pic">
+                  <img class="like" src="assets/images/like.svg" alt="like">
+                </div>
+                <div class="tacenter fw-400 item-title">Pink Jacket</div>
+                <div class="tacenter item-brand">Gucci</div>
+                <div class="tacenter fw-400 item-price">&#163;200</div>
+                <div class="tacenter fw-400 shop-now"><span>Shop Now</span></div>
+              </div>
+              <div class="listitem">
+                <div class="item-like">
+                  <img class="item" src="assets/images/best-2.png" alt="item-pic">
+                  <img class="like" src="assets/images/like.svg" alt="like">
+                </div>
+                <div class="tacenter fw-400 item-title">PINK KNIT BEANIE</div>
+                <div class="tacenter item-brand">Bacon Clothing</div>
+                <div class="tacenter fw-400 item-price">&#163;200</div>
+                <div class="tacenter fw-400 shop-now"><span>Shop Now</span></div>
+              </div>
+              <div class="listitem">
+                <div class="item-like">
+                  <img class="item" src="assets/images/best-3.png" alt="item-pic">
+                  <img class="like" src="assets/images/like-yellow.svg" alt="like">
+                </div>
+                <div class="tacenter fw-400 item-title">GOLD GLOVES</div>
+                <div class="tacenter item-brand">Annakiki</div>
+                <div class="tacenter fw-400 item-price">&#163;200</div>
+                <div class="tacenter fw-400 shop-now"><span>Shop Now</span></div>
+              </div>
+              <div class="listitem">
+                <div class="item-like">
+                  <img class="item" src="assets/images/best-4.png" alt="item-pic">
+                  <img class="like" src="assets/images/like.svg" alt="like">
+                </div>
+                <div class="tacenter fw-400 item-title">CREAM HANDBAG</div>
+                <div class="tacenter item-brand">Black Crows</div>
+                <div class="tacenter fw-400 item-price">&#163;200</div>
+                <div class="tacenter fw-400 shop-now"><span>Shop Now</span></div>
+              </div>
+              <div class="listitem">
+                <div class="item-like">
+                  <img class="item" src="assets/images/best-1.png" alt="item-pic">
+                  <img class="like" src="assets/images/like.svg" alt="like">
+                </div>
+                <div class="tacenter fw-400 item-title">Pink Jacket</div>
+                <div class="tacenter item-brand">Gucci</div>
+                <div class="tacenter fw-400 item-price">&#163;200</div>
+                <div class="tacenter fw-400 shop-now"><span>Shop Now</span></div>
+              </div>
+              <div class="listitem">
+                <div class="item-like">
+                  <img class="item" src="assets/images/best-2.png" alt="item-pic">
+                  <img class="like" src="assets/images/like.svg" alt="like">
+                </div>
+                <div class="tacenter fw-400 item-title">PINK KNIT BEANIE</div>
+                <div class="tacenter item-brand">Bacon Clothing</div>
+                <div class="tacenter fw-400 item-price">&#163;200</div>
+                <div class="tacenter fw-400 shop-now"><span>Shop Now</span></div>
+              </div>
+              <div class="listitem">
+                <div class="item-like">
+                  <img class="item" src="assets/images/best-3.png" alt="item-pic">
+                  <img class="like" src="assets/images/like-yellow.svg" alt="like">
+                </div>
+                <div class="tacenter fw-400 item-title">GOLD GLOVES</div>
+                <div class="tacenter item-brand">Annakiki</div>
+                <div class="tacenter fw-400 item-price">&#163;200</div>
+                <div class="tacenter fw-400 shop-now"><span>Shop Now</span></div>
+              </div>
+              <div class="listitem">
+                <div class="item-like">
+                  <img class="item" src="assets/images/best-4.png" alt="item-pic">
+                  <img class="like" src="assets/images/like.svg" alt="like">
+                </div>
+                <div class="tacenter fw-400 item-title">CREAM HANDBAG</div>
+                <div class="tacenter item-brand">Black Crows</div>
+                <div class="tacenter fw-400 item-price">&#163;200</div>
+                <div class="tacenter fw-400 shop-now"><span>Shop Now</span></div>
+              </div>
+            </div>
+            <div class="arrow-right" onclick="handleclickBest('right')">
+              <img style="width: 100%; height: auto; object-fit: contain;" src="assets/images/arrow-right.svg" alt="arrow right">
+            </div>
+          </div>
+        </section>
+
+        <section id="instagram-region">
+          <div class="insta-title">
+            #KOISKI
+          </div>
+          <div class="ctas">
+            <div class="cta-container">
+              <div class="cta-image">
+                <img src="assets/images/insta-1.png" alt="insta one">
+              </div>
+            </div>
+            <div class="cta-container">
+              <div class="cta-image">
+                <img src="assets/images/insta-2.png" alt="insta two">
+              </div>
+            </div>
+            <div class="cta-container">
+              <div class="cta-image">
+                <img src="assets/images/insta-3.png" alt="insta three">
+              </div>
+            </div>
+            <div class="cta-container">
+              <div class="cta-image">
+                <img src="assets/images/insta-4.png" alt="insta four">
+              </div>
+            </div>
+            <div class="cta-container">
+              <div class="cta-image">
+                <img src="assets/images/insta-5.png" alt="insta five">
+              </div>
+            </div>
+            <div class="cta-container">
+              <div class="cta-image">
+                <img src="assets/images/insta-6.png" alt="insta six">
+              </div>
+            </div>
+            <div class="cta-container">
+              <div class="cta-image">
+                <img src="assets/images/insta-7.png" alt="insta seven">
+              </div>
+            </div>
+            <div class="cta-container">
+              <div class="cta-image">
+                <img src="assets/images/insta-8.png" alt="insta eight">
+              </div>
+            </div>
+            <div class="cta-container">
+              <div class="cta-image">
+                <img src="assets/images/insta-9.png" alt="insta nine">
+              </div>
+            </div>
+            <div class="cta-container">
+              <div class="cta-image">
+                <img src="assets/images/insta-10.png" alt="insta ten">
+              </div>
+            </div>
+            <div class="cta-container">
+              <div class="cta-image">
+                <img src="assets/images/insta-11.png" alt="insta eleven">
+              </div>
+            </div>
+            <div class="cta-container">
+              <div class="cta-image">
+                <img src="assets/images/insta-12.png" alt="insta twelve">
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="section-padding">
+        <div class="left-footer">
+          <div class="logo">
+            <img src="assets/images/logo-footer.png" alt="logo-footer">
+          </div>
+          <ul class="menu-footer">
+            <li><a>About</a></li>
+            <li><a>Terms & Conditions</a></li>
+            <li><a>Privacy Policy</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="right-footer">
+          <form>
+            <div class="email-input">
+              <div for="emaiil">Sign up for our newsletter</div>
+              <input type="email" name="email" id="email" size="50" required />
+            </div>
+            <div class="gdpr-input">
+              <input type="checkbox" id="gdpr" name="gdpr"/>
+              <label for="gdpr">GDPR</label>
+            </div>
+            <div class="submit-button">
+              <button type="submit">Submit ></button>
+            </div>
+          </form>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
